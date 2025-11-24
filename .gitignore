@@ -1,0 +1,31 @@
+# OS Files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Backend
+cardak-backend/database.sqlite
+cardak-backend/database.sqlite-journal
+cardak-backend/.env
+cardak-backend/uploads/
+cardak-backend/logs/
+
+# Exclude Admin Panel (Not uploaded to GitHub)
+cardak-admin/
+
+# Exclude Mobile Source Code (Not uploaded to GitHub - only APK)
+cardak-mobile/
+
+# Keep assets folder for GitHub
+!assets/
