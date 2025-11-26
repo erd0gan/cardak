@@ -1,14 +1,12 @@
-[🇹🇷 Türkçe](#-türkçe) | [🇬🇧 English](#-english)
-
----
+<p align="center">
+  <a href="#-türkçe">🇹🇷 Türkçe</a> | <a href="#-english">🇬🇧 English</a> 
+</p>
 
 <p align="center">
   <img src="assets/images/cardak-logo.png" alt="Çardak Logo" width="200"/>
 </p>
 
-# 🇹🇷 Türkçe
-
-# 🏢 Çardak - Akıllı Yaşam Yönetim Platformu
+## 🏢 Çardak - Akıllı Yaşam Yönetim Platformu
 
 Çardak, site yaşamını dijitalleştiren kapsamlı bir yönetim platformudur. Mobil uygulama ile sakinler aidat ödemelerini takip eder, ortak alanları (spor salonu, havuz) rezerve eder, bakım taleplerinde bulunur ve site içi pazaryerinde alışveriş yapar. Yöneticiler ise web panelinden tüm siteyi kontrol eder, duyuru gönderir, araç giriş-çıkışlarını takip eder ve AI destekli analizlerle kararlar alır. Yapay zeka chatbot sakinlerin sorularını anında yanıtlar. Plaka tanıma sistemi ile güvenlik otomatikleşir. Her şey tek platformda!
 
@@ -16,15 +14,7 @@
 
 ---
 
-# 🇬🇧 English
-
-# 🏢 Çardak - Smart Community Management Platform
-
-Çardak is a comprehensive platform that digitizes residential complex life. Through the mobile app, residents track dues payments, reserve common areas (gym, pool), submit maintenance requests, and shop in the internal marketplace. Administrators control everything from the web panel, send announcements, monitor vehicle entry-exit, and make decisions with AI-powered analytics. An AI chatbot instantly answers residents' questions. Security is automated with license plate recognition. Everything in one platform!
-
-**📦 This repository contains only the backend API and mobile APK file. The admin panel and mobile source code are not uploaded to GitHub.**
-
-## 🌟 Özellikler
+## ✨ Özellikler
 
 ### 👥 Sakin Özellikleri (Mobil App)
 - 💰 **Aidat Yönetimi**: Ödeme geçmişi ve bekleyen ödemeler
@@ -53,78 +43,29 @@
 
 ---
 
-## 🌟 Features
-
-### 👥 Resident Features (Mobile App)
-- 💰 **Payment Management**: Payment history and pending dues
-- 📢 **Announcements**: Real-time site announcements
-- 🎯 **Reservations**: Book common areas (gym, pool, meeting rooms)
-- 🛠️ **Requests & Complaints**: Maintenance requests and issue reporting
-- 🛒 **Marketplace**: Internal community marketplace
-- 🗳️ **Polls**: Participate in community decisions
-- 🤖 **AI Assistant**: Smart chatbot with LM Studio integration
-- 📊 **AI Analytics**: AI-powered usage analytics
-
-### 🔧 Admin Features
-- 👨‍👩‍👧‍👦 **Resident Management**: Add, edit, and report users
-- 💳 **Payment Tracking**: Dues collection and reporting
-- 📝 **Announcement Management**: Send bulk notifications
-- 🎫 **Request Management**: Work orders and task assignment
-- 🚗 **Vehicle Management**: License Plate Recognition simulation
-- 📊 **Dashboard**: Detailed statistics and reports
-
-### 🚗 Smart License Plate Recognition (LPR)
-- Vehicle entry/exit tracking
-- Resident, guest, and unauthorized vehicle categories
-- Parking occupancy analysis
-- Recognition quality with confidence score
-- Real-time simulation
-
 ## 🛠️ Teknoloji Stack
 
 ### Backend (Node.js)
 ```
 - Express.js - RESTful API
-- SQLite - Lightweight database
-- Sequelize ORM - Data modeling
-- JWT - Authentication
-- Gemini AI - Cloud AI service (fallback)
-- LM Studio - Local AI model integration
-- Bcrypt - Password hashing
+- SQLite - Hafif veritabanı
+- Sequelize ORM - Veri modelleme
+- JWT - Kimlik doğrulama
+- Gemini AI - Bulut AI servisi (yedek)
+- LM Studio - Yerel AI model entegrasyonu
+- Bcrypt - Şifre hashlama
 ```
 
 ### Mobil (Flutter)
 ```
-- Flutter - Cross-platform framework
-- Provider - State management
-- Hive - Local NoSQL database
-- HTTP - API communication
-- SharedPreferences - User settings
+- Flutter - Çapraz platform framework
+- Provider - Durum yönetimi
+- Hive - Yerel NoSQL veritabanı
+- HTTP - API iletişimi
+- SharedPreferences - Kullanıcı ayarları
 ```
 
 ---
-
-## 🛠️ Technology Stack
-
-### Backend (Node.js)
-```
-- Express.js - RESTful API
-- SQLite - Lightweight database
-- Sequelize ORM - Data modeling
-- JWT - Authentication
-- Gemini AI - Cloud AI service (fallback)
-- LM Studio - Local AI model integration
-- Bcrypt - Password hashing
-```
-
-### Mobile (Flutter)
-```
-- Flutter - Cross-platform framework
-- Provider - State management
-- Hive - Local NoSQL database
-- HTTP - API communication
-- SharedPreferences - User settings
-```
 
 ## 📦 Kurulum
 
@@ -193,7 +134,7 @@ LM Studio, yerel bilgisayarınızda AI modelleri çalıştırmanızı sağlar.
 Backend `.env` dosyanızda:
 
 ```env
-# LM Studio Configuration
+# LM Studio Konfigürasyonu
 LM_STUDIO_URL=http://localhost:1234/v1
 LM_STUDIO_MODEL=gemma-2b-it  # İndirdiğiniz modelin adı
 
@@ -204,7 +145,7 @@ GEMINI_API_KEY=your-gemini-api-key  # Opsiyonel
 **AI Özelliği Nasıl Çalışır?**
 
 1. **Öncelik**: LM Studio (Yerel)
-2. **Yedek**: Gemini AI (Cloud)
+2. **Yedek**: Gemini AI (Bulut)
 3. Eğer LM Studio çalışmıyorsa Gemini'ye geçer
 
 **LM Studio Avantajları:**
@@ -243,6 +184,194 @@ hostname -I
 **Login Bilgileri:**
 - Admin: `admin@admin.com` / `admin123`
 - Sakin: `ayse.yilmaz@email.com` / `password123`
+
+---
+
+## 🔐 Varsayılan Kullanıcılar
+
+| Rol | Email | Şifre |
+|-----|-------|-------|
+| Admin | `admin@admin.com` | `admin123` |
+| Manager | `manager@manager.com` | `manager123` |
+| Güvenlik | `ahmet@cardak.com` | `password123` |
+| Sakin | `ayse.yilmaz@email.com` | `password123` |
+
+---
+
+## 📂 Proje Yapısı
+
+```
+emkon-hackathon/
+├── 🔧 cardak-backend/        # Node.js Backend API
+│   ├── src/
+│   │   ├── models/           # Sequelize modelleri
+│   │   ├── routes/           # API route'ları
+│   │   ├── services/         # İş mantığı
+│   │   ├── middleware/       # Auth, validation vb.
+│   │   └── server.js         # Ana sunucu
+│   └── package.json
+│
+├── 📱 Çardak.apk             # Android Mobil Uygulama
+│
+└── 📚 docs/                  # Dokümantasyon
+```
+
+**Not:** Admin paneli ve mobil kaynak kodu bu repo'da bulunmamaktadır.
+
+---
+
+## 🚀 Özellik Detayları
+
+### AI Analytics
+- Gemini AI ve LM Studio entegrasyonu
+- Kullanıcı davranış analizi
+- Öngörücü bakım önerileri
+- Doğal dil işleme ile chatbot
+
+### LPR Sistemi
+- Türk plaka formatı desteği (34 ABC 1234)
+- Otomatik araç tanıma simülasyonu
+- Giriş/çıkış loglama
+- Otopark doluluk takibi (200 araç kapasitesi)
+- 4 kamera desteği
+
+### Rezervasyon Sistemi
+- Spor salonu, havuz, toplantı salonu
+- Saat bazlı rezervasyon
+- Çakışma kontrolü
+- Onay sistemi
+
+---
+
+## 🔄 API Endpoints
+
+### Kimlik Doğrulama
+```
+POST /api/v1/auth/login
+POST /api/v1/auth/register
+GET  /api/v1/auth/me
+```
+
+### Ödemeler
+```
+GET  /api/v1/payments
+GET  /api/v1/payments/user/:userId
+POST /api/v1/payments
+```
+
+### Araçlar
+```
+GET    /api/v1/vehicles
+POST   /api/v1/vehicles
+DELETE /api/v1/vehicles/:id
+GET    /api/v1/vehicles/stats/overview
+```
+
+### LPR
+```
+POST /api/v1/lpr/simulate
+POST /api/v1/lpr/simulate-batch
+GET  /api/v1/lpr/parking-analysis
+```
+
+---
+
+## 🤝 Katkıda Bulunma
+
+1. Fork edin
+2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
+3. Commit edin (`git commit -m 'Add amazing feature'`)
+4. Push edin (`git push origin feature/amazing-feature`)
+5. Pull Request açın
+
+---
+
+## 📝 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır.
+
+---
+
+## 👥 Ekip
+
+Emkon Hackathon 2025
+
+---
+
+## 📞 İletişim
+
+Proje ile ilgili sorularınız için issue açabilirsiniz.
+
+⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!
+
+---
+
+---
+
+# 🇬🇧 English
+
+<p align="center">
+  <img src="assets/images/cardak-logo.png" alt="Çardak Logo" width="200"/>
+</p>
+
+## 🏢 Çardak - Smart Community Management Platform
+
+Çardak is a comprehensive platform that digitizes residential complex life. Through the mobile app, residents track dues payments, reserve common areas (gym, pool), submit maintenance requests, and shop in the internal marketplace. Administrators control everything from the web panel, send announcements, monitor vehicle entry-exit, and make decisions with AI-powered analytics. An AI chatbot instantly answers residents' questions. Security is automated with license plate recognition. Everything in one platform!
+
+**📦 This repository contains only the backend API and mobile APK file. The admin panel and mobile source code are not uploaded to GitHub.**
+
+---
+
+## ✨ Features
+
+### 👥 Resident Features (Mobile App)
+- 💰 **Payment Management**: Payment history and pending dues
+- 📢 **Announcements**: Real-time site announcements
+- 🎯 **Reservations**: Book common areas (gym, pool, meeting rooms)
+- 🛠️ **Requests & Complaints**: Maintenance requests and issue reporting
+- 🛒 **Marketplace**: Internal community marketplace
+- 🗳️ **Polls**: Participate in community decisions
+- 🤖 **AI Assistant**: Smart chatbot with LM Studio integration
+- 📊 **AI Analytics**: AI-powered usage analytics
+
+### 🔧 Admin Features
+- 👨‍👩‍👧‍👦 **Resident Management**: Add, edit, and report users
+- 💳 **Payment Tracking**: Dues collection and reporting
+- 📝 **Announcement Management**: Send bulk notifications
+- 🎫 **Request Management**: Work orders and task assignment
+- 🚗 **Vehicle Management**: License Plate Recognition simulation
+- 📊 **Dashboard**: Detailed statistics and reports
+
+### 🚗 Smart License Plate Recognition (LPR)
+- Vehicle entry/exit tracking
+- Resident, guest, and unauthorized vehicle categories
+- Parking occupancy analysis
+- Recognition quality with confidence score
+- Real-time simulation
+
+---
+
+## 🛠️ Technology Stack
+
+### Backend (Node.js)
+```
+- Express.js - RESTful API
+- SQLite - Lightweight database
+- Sequelize ORM - Data modeling
+- JWT - Authentication
+- Gemini AI - Cloud AI service (fallback)
+- LM Studio - Local AI model integration
+- Bcrypt - Password hashing
+```
+
+### Mobile (Flutter)
+```
+- Flutter - Cross-platform framework
+- Provider - State management
+- Hive - Local NoSQL database
+- HTTP - API communication
+- SharedPreferences - User settings
+```
 
 ---
 
@@ -364,43 +493,16 @@ hostname -I
 - Admin: `admin@admin.com` / `admin123`
 - Resident: `ayse.yilmaz@email.com` / `password123`
 
-## 🔐 Varsayılan Kullanıcılar
+---
 
-### Admin
-- Email: `admin@admin.com`
-- Password: `admin123`
+## 🔐 Default Users
 
-### Manager
-- Email: `manager@manager.com`
-- Password: `manager123`
-
-### Personel
-- Email: `ahmet@cardak.com` (güvenlik)
-- Password: `password123`
-
-### Sakin
-- Email: `ayse.yilmaz@email.com`
-- Password: `password123`
-
-## 📂 Proje Yapısı
-
-```
-emkon-hackathon/
-├── 🔧 cardak-backend/        # Node.js Backend API
-│   ├── src/
-│   │   ├── models/           # Sequelize modelleri
-│   │   ├── routes/           # API route'ları
-│   │   ├── services/         # İş mantığı
-│   │   ├── middleware/       # Auth, validation vb.
-│   │   └── server.js         # Ana sunucu
-│   └── package.json
-│
-├── 📱 Çardak.apk             # Android Mobil Uygulama
-│
-└── 📚 docs/                  # Dokümantasyon
-```
-
-**Not:** Admin paneli ve mobil kaynak kodu bu repo'da bulunmamaktadır.
+| Role | Email | Password |
+|------|-------|----------|
+| Admin | `admin@admin.com` | `admin123` |
+| Manager | `manager@manager.com` | `manager123` |
+| Security | `ahmet@cardak.com` | `password123` |
+| Resident | `ayse.yilmaz@email.com` | `password123` |
 
 ---
 
@@ -424,26 +526,30 @@ emkon-hackathon/
 
 **Note:** Admin panel and mobile source code are not included in this repository.
 
-## 🚀 Özellik Detayları
+---
+
+## 🚀 Feature Details
 
 ### AI Analytics
-- Gemini AI ve LM Studio entegrasyonu
-- Kullanıcı davranış analizi
-- Öngörücü bakım önerileri
-- Doğal dil işleme ile chatbot
+- Gemini AI and LM Studio integration
+- User behavior analysis
+- Predictive maintenance suggestions
+- Natural language processing chatbot
 
-### LPR Sistemi
-- Türk plaka formatı desteği (34 ABC 1234)
-- Otomatik araç tanıma simülasyonu
-- Giriş/çıkış loglama
-- Otopark doluluk takibi (200 araç kapasitesi)
-- 4 kamera desteği
+### LPR System
+- Turkish license plate format support (34 ABC 1234)
+- Automatic vehicle recognition simulation
+- Entry/exit logging
+- Parking occupancy tracking (200 vehicle capacity)
+- 4-camera support
 
-### Rezervasyon Sistemi
-- Spor salonu, havuz, toplantı salonu
-- Saat bazlı rezervasyon
-- Çakışma kontrolü
-- Onay sistemi
+### Reservation System
+- Gym, pool, meeting rooms
+- Hourly-based reservations
+- Conflict detection
+- Approval system
+
+---
 
 ## 🔄 API Endpoints
 
@@ -476,26 +582,32 @@ POST /api/v1/lpr/simulate-batch
 GET  /api/v1/lpr/parking-analysis
 ```
 
-## 🤝 Katkıda Bulunma
+---
 
-1. Fork edin
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Commit edin (`git commit -m 'Add amazing feature'`)
-4. Push edin (`git push origin feature/amazing-feature`)
-5. Pull Request açın
+## 🤝 Contributing
 
-## 📝 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
-
-## 👥 Ekip
-
-Emkon Hackathon 2025
-
-## 📞 İletişim
-
-Proje ile ilgili sorularınız için issue açabilirsiniz.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ---
 
-⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!
+## 📝 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👥 Team
+
+Emkon Hackathon 2025
+
+---
+
+## 📞 Contact
+
+Feel free to open an issue for any questions about the project.
+
+⭐ Don't forget to star this project if you like it!
