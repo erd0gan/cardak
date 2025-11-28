@@ -183,7 +183,7 @@ hostname -I
 
 **Login Bilgileri:**
 - Admin: `admin@admin.com` / `admin123`
-- Sakin: `ayse.yilmaz@email.com` / `password123`
+- Sakin: `sakin1@site.com` / `sakin123`
 
 ---
 
@@ -193,8 +193,8 @@ hostname -I
 |-----|-------|-------|
 | Admin | `admin@admin.com` | `admin123` |
 | Manager | `manager@manager.com` | `manager123` |
-| Güvenlik | `ahmet@cardak.com` | `password123` |
-| Sakin | `ayse.yilmaz@email.com` | `password123` |
+| Güvenlik | `guvenlik@site.com` | `guvenlik123` |
+| Sakin | `sakin1@site.com` | `sakin123` |
 
 ---
 
@@ -491,7 +491,7 @@ hostname -I
 
 **Login Credentials:**
 - Admin: `admin@admin.com` / `admin123`
-- Resident: `ayse.yilmaz@email.com` / `password123`
+- Resident: `sakin1@site.com` / `sakin123`
 
 ---
 
@@ -501,8 +501,8 @@ hostname -I
 |------|-------|----------|
 | Admin | `admin@admin.com` | `admin123` |
 | Manager | `manager@manager.com` | `manager123` |
-| Security | `ahmet@cardak.com` | `password123` |
-| Resident | `ayse.yilmaz@email.com` | `password123` |
+| Security | `guvenlik@site.com` | `staff123` |
+| Resident | `sakin1@site.com` | `sakin123` |
 
 ---
 
