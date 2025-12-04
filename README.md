@@ -26,6 +26,9 @@
 
 - 💰 **Aidat Yönetimi**: Ödeme geçmişi ve bekleyen ödemeler
 - 📢 **Duyurular**: Anlık site duyurularını takip
+
+<img src="Screenshots/Duyuru_Yönetimi.png" alt="Duyuru Yönetimi" width="250"/>
+
 - 🎯 **Rezervasyonlar**: Ortak alanları rezerve etme (spor salonu, havuz, toplantı salonu)
 
 <img src="Screenshots/Rezervasyon_Yönetimi.png" alt="Rezervasyon Yönetimi" width="250"/>
@@ -35,18 +38,24 @@
 <img src="Screenshots/Talep_ve_Arızalar.png" alt="Talep ve Arızalar" width="250"/>
 
 - 🛒 **Pazaryeri**: Site içi alışveriş platformu
+
+<img src="Screenshots/Komşu_Pazar.png" alt="Komşu Pazar" width="250"/>
+
 - 🗳️ **Anketler**: Topluluk kararlarına katılım
 
 <img src="Screenshots/Oylama_Yönetimi.png" alt="Oylama Yönetimi" width="250"/>
 
 - 🤖 **AI Asistan**: LM Studio entegrasyonu ile akıllı chatbot
+
+<img src="Screenshots/AI_Asistan.png" alt="AI Asistan" width="250"/>
+
 - 📊 **AI Analytics**: Yapay zeka destekli kullanım analizi
 
 <img src="Screenshots/Profil.png" alt="Profil" width="250"/>
 
 ### 🔧 Yönetici Özellikleri
 
-<img src="Screenshots/Dashboard_Yönetimi.png" alt="Dashboard Yönetimi" width="250"/>
+<img src="Screenshots/Güvenlik_-_Panel.png" alt="Güvenlik Paneli" width="250"/>
 
 - 👨‍👩‍👧‍👦 **Sakin Yönetimi**: Kullanıcı ekleme, düzenleme, raporlama
 - 💳 **Ödeme Takibi**: Aidat toplama ve raporlama
@@ -59,6 +68,9 @@
 <img src="Screenshots/Teknik_Panel.png" alt="Teknik Panel" width="250"/>
 
 - 🚗 **Araç Yönetimi**: Plaka tanıma (LPR) simülasyonu
+
+<img src="Screenshots/Araç_Yönetimi.png" alt="Araç Yönetimi" width="250"/>
+
 - 📊 **Dashboard**: Detaylı istatistik ve raporlar
 
 ### 🚗 Akıllı Plaka Tanıma (LPR)
@@ -70,11 +82,11 @@
 
 <img src="Screenshots/Yeni_Misafir.png" alt="Yeni Misafir" width="250"/>
 
+<img src="Screenshots/Misafir_QR.png" alt="Misafir QR" width="250"/>
+
 - Otopark doluluk analizi
 - Güven skoru ile tanıma kalitesi
 - Gerçek zamanlı simülasyon
-
-<img src="Screenshots/Yeni_Rezervasyon.png" alt="Yeni Rezervasyon" width="250"/>
 
 ---
 
@@ -266,18 +278,15 @@ emkon-hackathon/
 
 <img src="Screenshots/Temizlik_Alanları.png" alt="Temizlik Alanları" width="250"/>
 
-### Rezervasyon Sistemi
-- Spor salonu, havuz, toplantı salonu
-- Saat bazlı rezervasyon
-- Çakışma kontrolü
-- Onay sistemi
+### Temizlik ve Ortak Alanlar
+- Alanları yönetme
+- Kullanım takibi
 
-<img src="Screenshots/Ödeme_Takibi.png" alt="Ödeme Yönetimi" width="250"/>
+<img src="Screenshots/Kargo_Giriş_Kontrolü.png" alt="Kargo Giriş Kontrolü" width="250"/>
 
-### Ödeme Yönetimi
-- Aidat takibi
-- Ödeme geçmişi
-- Raporlama
+### Kargo Yönetimi
+- Kargo giriş kontrolü
+- Takip sistemi
 
 ---
 
@@ -368,6 +377,9 @@ Proje ile ilgili sorularınız için issue açabilirsiniz.
 
 - 💰 **Payment Management**: Payment history and pending dues
 - 📢 **Announcements**: Real-time site announcements
+
+<img src="Screenshots/Duyuru_Yönetimi.png" alt="Announcement Management" width="250"/>
+
 - 🎯 **Reservations**: Book common areas (gym, pool, meeting rooms)
 
 <img src="Screenshots/Rezervasyon_Yönetimi.png" alt="Reservation Management" width="250"/>
@@ -377,18 +389,24 @@ Proje ile ilgili sorularınız için issue açabilirsiniz.
 <img src="Screenshots/Talep_ve_Arızalar.png" alt="Requests and Complaints" width="250"/>
 
 - 🛒 **Marketplace**: Internal community marketplace
+
+<img src="Screenshots/Komşu_Pazar.png" alt="Neighborhood Market" width="250"/>
+
 - 🗳️ **Polls**: Participate in community decisions
 
 <img src="Screenshots/Oylama_Yönetimi.png" alt="Polls Management" width="250"/>
 
 - 🤖 **AI Assistant**: Smart chatbot with LM Studio integration
+
+<img src="Screenshots/AI_Asistan.png" alt="AI Assistant" width="250"/>
+
 - 📊 **AI Analytics**: AI-powered usage analytics
 
 <img src="Screenshots/Profil.png" alt="Profile" width="250"/>
 
 ### 🔧 Admin Features
 
-<img src="Screenshots/Dashboard_Yönetimi.png" alt="Dashboard Management" width="250"/>
+<img src="Screenshots/Güvenlik_-_Panel.png" alt="Security Panel" width="250"/>
 
 - 👨‍👩‍👧‍👦 **Resident Management**: Add, edit, and report users
 - 💳 **Payment Tracking**: Dues collection and reporting
@@ -401,6 +419,9 @@ Proje ile ilgili sorularınız için issue açabilirsiniz.
 <img src="Screenshots/Teknik_Panel.png" alt="Technical Panel" width="250"/>
 
 - 🚗 **Vehicle Management**: License Plate Recognition simulation
+
+<img src="Screenshots/Araç_Yönetimi.png" alt="Vehicle Management" width="250"/>
+
 - 📊 **Dashboard**: Detailed statistics and reports
 
 ### 🚗 Smart License Plate Recognition (LPR)
@@ -412,11 +433,11 @@ Proje ile ilgili sorularınız için issue açabilirsiniz.
 
 <img src="Screenshots/Yeni_Misafir.png" alt="New Guest" width="250"/>
 
+<img src="Screenshots/Misafir_QR.png" alt="Guest QR Code" width="250"/>
+
 - Parking occupancy analysis
 - Recognition quality with confidence score
 - Real-time simulation
-
-<img src="Screenshots/Yeni_Rezervasyon.png" alt="New Reservation" width="250"/>
 
 ---
 
@@ -608,18 +629,15 @@ emkon-hackathon/
 
 <img src="Screenshots/Temizlik_Alanları.png" alt="Cleaning Areas" width="250"/>
 
-### Reservation System
-- Gym, pool, meeting rooms
-- Hourly-based reservations
-- Conflict detection
-- Approval system
+### Common Areas
+- Manage shared spaces
+- Usage tracking
 
-<img src="Screenshots/Ödeme_Takibi.png" alt="Payment Management" width="250"/>
+<img src="Screenshots/Kargo_Giriş_Kontrolü.png" alt="Cargo Entry Control" width="250"/>
 
-### Payment Management
-- Dues tracking
-- Payment history
-- Reporting
+### Cargo Management
+- Cargo entry control
+- Tracking system
 
 ---
 
