@@ -1,6 +1,10 @@
 <p align="center">
-  <a href="#-türkçe">🇹🇷 Türkçe</a> | <a href="#-english">🇬🇧 English</a> 
+  <a href="#-english">🇬🇧 English</a> | <a href="#-türkçe">🇹🇷 Türkçe</a>
 </p>
+
+---
+
+# 🇹🇷 Türkçe
 
 <p align="center">
   <img src="assets/images/cardak-logo.png" alt="Çardak Logo" width="200"/>
@@ -17,29 +21,64 @@
 ## ✨ Özellikler
 
 ### 👥 Sakin Özellikleri (Mobil App)
+
 - 💰 **Aidat Yönetimi**: Ödeme geçmişi ve bekleyen ödemeler
+
+![Ödeme Takibi](Screenshots/Duyurular.png)
+
 - 📢 **Duyurular**: Anlık site duyurularını takip
 - 🎯 **Rezervasyonlar**: Ortak alanları rezerve etme (spor salonu, havuz, toplantı salonu)
+
+![Rezervasyonlar](Screenshots/Rezervasyon_Yönetimi.png)
+
 - 🛠️ **Talep & Arıza**: Bakım talepleri ve arıza bildirimleri
+
+![Talep Yönetimi](Screenshots/Talep_Yönetimi.png)
+
 - 🛒 **Pazaryeri**: Site içi alışveriş platformu
 - 🗳️ **Anketler**: Topluluk kararlarına katılım
+
+![Anketler](Screenshots/Oylama_Yönetimi.png)
+
 - 🤖 **AI Asistan**: LM Studio entegrasyonu ile akıllı chatbot
 - 📊 **AI Analytics**: Yapay zeka destekli kullanım analizi
 
+![Profil ve Analytics](Screenshots/Profil.png)
+
 ### 🔧 Yönetici Özellikleri
+
 - 👨‍👩‍👧‍👦 **Sakin Yönetimi**: Kullanıcı ekleme, düzenleme, raporlama
 - 💳 **Ödeme Takibi**: Aidat toplama ve raporlama
+
+![Ödeme Yönetimi](Screenshots/Ödeme_Takibi.png)
+
 - 📝 **Duyuru Yönetimi**: Toplu bildirim gönderme
+
+![Duyuru Yönetimi](Screenshots/Duyuru_Yönetimi.png)
+
 - 🎫 **Talep Yönetimi**: İş emirleri ve görev atama
+
+![İş Emirleri](Screenshots/Teknik_Panel.png)
+
 - 🚗 **Araç Yönetimi**: Plaka tanıma (LPR) simülasyonu
 - 📊 **Dashboard**: Detaylı istatistik ve raporlar
 
+![Dashboard](Screenshots/Dashboard_Yönetimi.png)
+
 ### 🚗 Akıllı Plaka Tanıma (LPR)
+
 - Araç giriş/çıkış takibi
 - Sakin, misafir ve yetkisiz araç kategorileri
+
+![Sakin Araçları](Screenshots/Araç_Yönetimi.png)
+
+![Misafir Giriş](Screenshots/Misafir_Giriş_Kontrolü.png)
+
 - Otopark doluluk analizi
 - Güven skoru ile tanıma kalitesi
 - Gerçek zamanlı simülasyon
+
+![QR Kod Sistemi](Screenshots/Misafir_QR.png)
 
 ---
 
@@ -183,7 +222,7 @@ hostname -I
 
 **Login Bilgileri:**
 - Admin: `admin@admin.com` / `admin123`
-- Sakin: `sakin1@site.com` / `sakin123`
+- Sakin: `ayse.yilmaz@email.com` / `password123`
 
 ---
 
@@ -193,8 +232,8 @@ hostname -I
 |-----|-------|-------|
 | Admin | `admin@admin.com` | `admin123` |
 | Manager | `manager@manager.com` | `manager123` |
-| Güvenlik | `guvenlik@site.com` | `guvenlik123` |
-| Sakin | `sakin1@site.com` | `sakin123` |
+| Güvenlik | `ahmet@cardak.com` | `password123` |
+| Sakin | `ayse.yilmaz@email.com` | `password123` |
 
 ---
 
@@ -222,24 +261,31 @@ emkon-hackathon/
 
 ## 🚀 Özellik Detayları
 
-### AI Analytics
-- Gemini AI ve LM Studio entegrasyonu
-- Kullanıcı davranış analizi
-- Öngörücü bakım önerileri
-- Doğal dil işleme ile chatbot
+### Raporlar ve İstatistikler
 
-### LPR Sistemi
-- Türk plaka formatı desteği (34 ABC 1234)
-- Otomatik araç tanıma simülasyonu
-- Giriş/çıkış loglama
-- Otopark doluluk takibi (200 araç kapasitesi)
-- 4 kamera desteği
+![Rapor Sayfası](Screenshots/Rapolar_ve_İstatistikler.png)
 
-### Rezervasyon Sistemi
-- Spor salonu, havuz, toplantı salonu
-- Saat bazlı rezervasyon
-- Çakışma kontrolü
-- Onay sistemi
+- Detaylı kullanım raporları
+- Trend analizi
+- İstatistik görselleri
+
+### Yönetici İşlemleri
+
+![Komşu Pazarı](Screenshots/Komşu_Pazar.png)
+
+![Anket Oluşturma](Screenshots/Anket_-_Örnek.png)
+
+- Kolay yönetim arayüzü
+- Hızlı işlem gerçekleştirme
+
+### Güvenlik ve Kontrol
+
+![Güvenlik Paneli](Screenshots/Güvenlik_-_Panel.png)
+
+![Kargo Giriş Kontrolü](Screenshots/Kargo_Giriş_-_Kod.png)
+
+- Güvenlik izleme
+- Erişim kontrolü
 
 ---
 
@@ -325,29 +371,64 @@ Proje ile ilgili sorularınız için issue açabilirsiniz.
 ## ✨ Features
 
 ### 👥 Resident Features (Mobile App)
+
 - 💰 **Payment Management**: Payment history and pending dues
+
+![Payment Tracking](Screenshots/Duyurular.png)
+
 - 📢 **Announcements**: Real-time site announcements
 - 🎯 **Reservations**: Book common areas (gym, pool, meeting rooms)
+
+![Reservations](Screenshots/Rezervasyon_Yönetimi.png)
+
 - 🛠️ **Requests & Complaints**: Maintenance requests and issue reporting
+
+![Request Management](Screenshots/Talep_Yönetimi.png)
+
 - 🛒 **Marketplace**: Internal community marketplace
 - 🗳️ **Polls**: Participate in community decisions
+
+![Polls](Screenshots/Oylama_Yönetimi.png)
+
 - 🤖 **AI Assistant**: Smart chatbot with LM Studio integration
 - 📊 **AI Analytics**: AI-powered usage analytics
 
+![Profile and Analytics](Screenshots/Profil.png)
+
 ### 🔧 Admin Features
+
 - 👨‍👩‍👧‍👦 **Resident Management**: Add, edit, and report users
 - 💳 **Payment Tracking**: Dues collection and reporting
+
+![Payment Management](Screenshots/Ödeme_Takibi.png)
+
 - 📝 **Announcement Management**: Send bulk notifications
+
+![Announcement Management](Screenshots/Duyuru_Yönetimi.png)
+
 - 🎫 **Request Management**: Work orders and task assignment
+
+![Work Orders](Screenshots/Teknik_Panel.png)
+
 - 🚗 **Vehicle Management**: License Plate Recognition simulation
 - 📊 **Dashboard**: Detailed statistics and reports
 
+![Dashboard](Screenshots/Dashboard_Yönetimi.png)
+
 ### 🚗 Smart License Plate Recognition (LPR)
+
 - Vehicle entry/exit tracking
 - Resident, guest, and unauthorized vehicle categories
+
+![Resident Vehicles](Screenshots/Araç_Yönetimi.png)
+
+![Guest Entry](Screenshots/Misafir_Giriş_Kontrolü.png)
+
 - Parking occupancy analysis
 - Recognition quality with confidence score
 - Real-time simulation
+
+![QR Code System](Screenshots/Misafir_QR.png)
 
 ---
 
@@ -491,7 +572,7 @@ hostname -I
 
 **Login Credentials:**
 - Admin: `admin@admin.com` / `admin123`
-- Resident: `sakin1@site.com` / `sakin123`
+- Resident: `ayse.yilmaz@email.com` / `password123`
 
 ---
 
@@ -501,8 +582,8 @@ hostname -I
 |------|-------|----------|
 | Admin | `admin@admin.com` | `admin123` |
 | Manager | `manager@manager.com` | `manager123` |
-| Security | `guvenlik@site.com` | `staff123` |
-| Resident | `sakin1@site.com` | `sakin123` |
+| Security | `ahmet@cardak.com` | `password123` |
+| Resident | `ayse.yilmaz@email.com` | `password123` |
 
 ---
 
@@ -530,24 +611,31 @@ emkon-hackathon/
 
 ## 🚀 Feature Details
 
-### AI Analytics
-- Gemini AI and LM Studio integration
-- User behavior analysis
-- Predictive maintenance suggestions
-- Natural language processing chatbot
+### Reports and Statistics
 
-### LPR System
-- Turkish license plate format support (34 ABC 1234)
-- Automatic vehicle recognition simulation
-- Entry/exit logging
-- Parking occupancy tracking (200 vehicle capacity)
-- 4-camera support
+![Reports Page](Screenshots/Rapolar_ve_İstatistikler.png)
 
-### Reservation System
-- Gym, pool, meeting rooms
-- Hourly-based reservations
-- Conflict detection
-- Approval system
+- Detailed usage reports
+- Trend analysis
+- Statistical visualizations
+
+### Admin Operations
+
+![Neighborhood Market](Screenshots/Komşu_Pazar.png)
+
+![Poll Creation](Screenshots/Anket_-_Örnek.png)
+
+- User-friendly interface
+- Quick operations
+
+### Security and Control
+
+![Security Panel](Screenshots/Güvenlik_-_Panel.png)
+
+![Cargo Entry Control](Screenshots/Kargo_Giriş_-_Kod.png)
+
+- Security monitoring
+- Access control
 
 ---
 
