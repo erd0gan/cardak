@@ -22,63 +22,59 @@
 
 ### 👥 Sakin Özellikleri (Mobil App)
 
+<img src="Screenshots/Sakin_Yönetimi.png" alt="Sakin Yönetimi" width="250"/>
+
 - 💰 **Aidat Yönetimi**: Ödeme geçmişi ve bekleyen ödemeler
-
-![Ödeme Takibi](Screenshots/Duyurular.png)
-
 - 📢 **Duyurular**: Anlık site duyurularını takip
 - 🎯 **Rezervasyonlar**: Ortak alanları rezerve etme (spor salonu, havuz, toplantı salonu)
 
-![Rezervasyonlar](Screenshots/Rezervasyon_Yönetimi.png)
+<img src="Screenshots/Rezervasyon_Yönetimi.png" alt="Rezervasyon Yönetimi" width="250"/>
 
 - 🛠️ **Talep & Arıza**: Bakım talepleri ve arıza bildirimleri
 
-![Talep Yönetimi](Screenshots/Talep_Yönetimi.png)
+<img src="Screenshots/Talep_ve_Arızalar.png" alt="Talep ve Arızalar" width="250"/>
 
 - 🛒 **Pazaryeri**: Site içi alışveriş platformu
 - 🗳️ **Anketler**: Topluluk kararlarına katılım
 
-![Anketler](Screenshots/Oylama_Yönetimi.png)
+<img src="Screenshots/Oylama_Yönetimi.png" alt="Oylama Yönetimi" width="250"/>
 
 - 🤖 **AI Asistan**: LM Studio entegrasyonu ile akıllı chatbot
 - 📊 **AI Analytics**: Yapay zeka destekli kullanım analizi
 
-![Profil ve Analytics](Screenshots/Profil.png)
+<img src="Screenshots/Profil.png" alt="Profil" width="250"/>
 
 ### 🔧 Yönetici Özellikleri
+
+<img src="Screenshots/Dashboard_Yönetimi.png" alt="Dashboard Yönetimi" width="250"/>
 
 - 👨‍👩‍👧‍👦 **Sakin Yönetimi**: Kullanıcı ekleme, düzenleme, raporlama
 - 💳 **Ödeme Takibi**: Aidat toplama ve raporlama
 
-![Ödeme Yönetimi](Screenshots/Ödeme_Takibi.png)
+<img src="Screenshots/Ödeme_Takibi.png" alt="Ödeme Takibi" width="250"/>
 
 - 📝 **Duyuru Yönetimi**: Toplu bildirim gönderme
-
-![Duyuru Yönetimi](Screenshots/Duyuru_Yönetimi.png)
-
 - 🎫 **Talep Yönetimi**: İş emirleri ve görev atama
 
-![İş Emirleri](Screenshots/Teknik_Panel.png)
+<img src="Screenshots/Teknik_Panel.png" alt="Teknik Panel" width="250"/>
 
 - 🚗 **Araç Yönetimi**: Plaka tanıma (LPR) simülasyonu
 - 📊 **Dashboard**: Detaylı istatistik ve raporlar
 
-![Dashboard](Screenshots/Dashboard_Yönetimi.png)
-
 ### 🚗 Akıllı Plaka Tanıma (LPR)
+
+<img src="Screenshots/Plaka_Tanıma_Sistemi.png" alt="Plaka Tanıma Sistemi" width="250"/>
 
 - Araç giriş/çıkış takibi
 - Sakin, misafir ve yetkisiz araç kategorileri
 
-![Sakin Araçları](Screenshots/Araç_Yönetimi.png)
-
-![Misafir Giriş](Screenshots/Misafir_Giriş_Kontrolü.png)
+<img src="Screenshots/Yeni_Misafir.png" alt="Yeni Misafir" width="250"/>
 
 - Otopark doluluk analizi
 - Güven skoru ile tanıma kalitesi
 - Gerçek zamanlı simülasyon
 
-![QR Kod Sistemi](Screenshots/Misafir_QR.png)
+<img src="Screenshots/Yeni_Rezervasyon.png" alt="Yeni Rezervasyon" width="250"/>
 
 ---
 
@@ -261,31 +257,27 @@ emkon-hackathon/
 
 ## 🚀 Özellik Detayları
 
+<img src="Screenshots/Rapolar_ve_İstatistikler.png" alt="Raporlar ve İstatistikler" width="250"/>
+
 ### Raporlar ve İstatistikler
-
-![Rapor Sayfası](Screenshots/Rapolar_ve_İstatistikler.png)
-
 - Detaylı kullanım raporları
 - Trend analizi
 - İstatistik görselleri
 
-### Yönetici İşlemleri
+<img src="Screenshots/Temizlik_Alanları.png" alt="Temizlik Alanları" width="250"/>
 
-![Komşu Pazarı](Screenshots/Komşu_Pazar.png)
+### Rezervasyon Sistemi
+- Spor salonu, havuz, toplantı salonu
+- Saat bazlı rezervasyon
+- Çakışma kontrolü
+- Onay sistemi
 
-![Anket Oluşturma](Screenshots/Anket_-_Örnek.png)
+<img src="Screenshots/Ödeme_Takibi.png" alt="Ödeme Yönetimi" width="250"/>
 
-- Kolay yönetim arayüzü
-- Hızlı işlem gerçekleştirme
-
-### Güvenlik ve Kontrol
-
-![Güvenlik Paneli](Screenshots/Güvenlik_-_Panel.png)
-
-![Kargo Giriş Kontrolü](Screenshots/Kargo_Giriş_-_Kod.png)
-
-- Güvenlik izleme
-- Erişim kontrolü
+### Ödeme Yönetimi
+- Aidat takibi
+- Ödeme geçmişi
+- Raporlama
 
 ---
 
@@ -372,63 +364,59 @@ Proje ile ilgili sorularınız için issue açabilirsiniz.
 
 ### 👥 Resident Features (Mobile App)
 
+<img src="Screenshots/Sakin_Yönetimi.png" alt="Resident Management" width="250"/>
+
 - 💰 **Payment Management**: Payment history and pending dues
-
-![Payment Tracking](Screenshots/Duyurular.png)
-
 - 📢 **Announcements**: Real-time site announcements
 - 🎯 **Reservations**: Book common areas (gym, pool, meeting rooms)
 
-![Reservations](Screenshots/Rezervasyon_Yönetimi.png)
+<img src="Screenshots/Rezervasyon_Yönetimi.png" alt="Reservation Management" width="250"/>
 
 - 🛠️ **Requests & Complaints**: Maintenance requests and issue reporting
 
-![Request Management](Screenshots/Talep_Yönetimi.png)
+<img src="Screenshots/Talep_ve_Arızalar.png" alt="Requests and Complaints" width="250"/>
 
 - 🛒 **Marketplace**: Internal community marketplace
 - 🗳️ **Polls**: Participate in community decisions
 
-![Polls](Screenshots/Oylama_Yönetimi.png)
+<img src="Screenshots/Oylama_Yönetimi.png" alt="Polls Management" width="250"/>
 
 - 🤖 **AI Assistant**: Smart chatbot with LM Studio integration
 - 📊 **AI Analytics**: AI-powered usage analytics
 
-![Profile and Analytics](Screenshots/Profil.png)
+<img src="Screenshots/Profil.png" alt="Profile" width="250"/>
 
 ### 🔧 Admin Features
+
+<img src="Screenshots/Dashboard_Yönetimi.png" alt="Dashboard Management" width="250"/>
 
 - 👨‍👩‍👧‍👦 **Resident Management**: Add, edit, and report users
 - 💳 **Payment Tracking**: Dues collection and reporting
 
-![Payment Management](Screenshots/Ödeme_Takibi.png)
+<img src="Screenshots/Ödeme_Takibi.png" alt="Payment Tracking" width="250"/>
 
 - 📝 **Announcement Management**: Send bulk notifications
-
-![Announcement Management](Screenshots/Duyuru_Yönetimi.png)
-
 - 🎫 **Request Management**: Work orders and task assignment
 
-![Work Orders](Screenshots/Teknik_Panel.png)
+<img src="Screenshots/Teknik_Panel.png" alt="Technical Panel" width="250"/>
 
 - 🚗 **Vehicle Management**: License Plate Recognition simulation
 - 📊 **Dashboard**: Detailed statistics and reports
 
-![Dashboard](Screenshots/Dashboard_Yönetimi.png)
-
 ### 🚗 Smart License Plate Recognition (LPR)
+
+<img src="Screenshots/Plaka_Tanıma_Sistemi.png" alt="License Plate Recognition" width="250"/>
 
 - Vehicle entry/exit tracking
 - Resident, guest, and unauthorized vehicle categories
 
-![Resident Vehicles](Screenshots/Araç_Yönetimi.png)
-
-![Guest Entry](Screenshots/Misafir_Giriş_Kontrolü.png)
+<img src="Screenshots/Yeni_Misafir.png" alt="New Guest" width="250"/>
 
 - Parking occupancy analysis
 - Recognition quality with confidence score
 - Real-time simulation
 
-![QR Code System](Screenshots/Misafir_QR.png)
+<img src="Screenshots/Yeni_Rezervasyon.png" alt="New Reservation" width="250"/>
 
 ---
 
@@ -611,31 +599,27 @@ emkon-hackathon/
 
 ## 🚀 Feature Details
 
+<img src="Screenshots/Rapolar_ve_İstatistikler.png" alt="Reports and Statistics" width="250"/>
+
 ### Reports and Statistics
-
-![Reports Page](Screenshots/Rapolar_ve_İstatistikler.png)
-
 - Detailed usage reports
 - Trend analysis
 - Statistical visualizations
 
-### Admin Operations
+<img src="Screenshots/Temizlik_Alanları.png" alt="Cleaning Areas" width="250"/>
 
-![Neighborhood Market](Screenshots/Komşu_Pazar.png)
+### Reservation System
+- Gym, pool, meeting rooms
+- Hourly-based reservations
+- Conflict detection
+- Approval system
 
-![Poll Creation](Screenshots/Anket_-_Örnek.png)
+<img src="Screenshots/Ödeme_Takibi.png" alt="Payment Management" width="250"/>
 
-- User-friendly interface
-- Quick operations
-
-### Security and Control
-
-![Security Panel](Screenshots/Güvenlik_-_Panel.png)
-
-![Cargo Entry Control](Screenshots/Kargo_Giriş_-_Kod.png)
-
-- Security monitoring
-- Access control
+### Payment Management
+- Dues tracking
+- Payment history
+- Reporting
 
 ---
 
